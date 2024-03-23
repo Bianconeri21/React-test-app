@@ -1,0 +1,59 @@
+.post-card {
+    width: 360px;
+    cursor: pointer;
+}
+
+.post-card-info {
+    width: 22.5rem;
+}
+
+.post-card-tags {
+    font-weight: 700;
+    font-size: 0.813rem;
+    color: #EB0028;
+}
+
+.post-card-author-date-views {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+    font-size: 0.75rem;
+}
+
+.dot-separator {
+    height: 0.188rem;
+    width: 0.188rem;
+    border-radius: 50%;
+    background-color: #D7D7D7;
+}
+
+.post-card-author {
+    font-weight: 500;
+}
+
+.post-card-date-view {
+    font-weight: 400;
+    color: #9B9B9B
+}
+
+.post-card-text {
+    margin-top: 0.938rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #929292
+}
+
+/* Responsive styles start */
+
+@media (max-width: 768px) {
+    .post-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .post-card-info {
+        width: 100%;
+    }
+}

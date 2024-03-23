@@ -1,0 +1,33 @@
+.submenu {
+    background-color: #ffffff;
+    padding: 0.938rem;
+    list-style-type: none;
+    display: none;
+    border: 1px solid #E9E9E9;
+    width: 140px;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 2.5rem
+  }
+
+  .submenu:hover {
+    display: block;
+  }
+
+  .submenu li {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid #E9E9E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .submenu li:last-child {
+    border-bottom: none;
+    padding-top: 0.625rem;
+  }
+
+  .submenu li:first-child {
+    padding-bottom: 0.625rem;
+  }

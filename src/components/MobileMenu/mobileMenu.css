@@ -1,0 +1,56 @@
+@media (max-width: 768px) {  
+    .hamburger {
+      visibility: visible;
+    }
+  
+    .mobile-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      background: white;
+      z-index: 10;
+    }
+  
+    .mobile-menu ul {
+      padding: 0;
+      list-style-type: none;
+    }
+  
+    .mobile-menu ul li {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #E9E9E9;
+      font-size: 1.25rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.313rem;
+    }
+
+    .mobile-menu ul li:last-child {
+      border-bottom: none;
+    }
+  
+    .mobile-menu-overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(156, 163, 175, 0.8);
+    }
+
+    .mobile-menu-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.875rem 1.25rem;
+      border-bottom: 1px solid #E9E9E9;
+    }
+
+    .mobile-menu-header span {
+      font-size: 3.125rem;
+    }
+  }
